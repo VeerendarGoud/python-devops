@@ -13,6 +13,10 @@ build out project scaffold
 * Dockerfile
 * command-line tools
 * Microservices
+
+1. Create virtuvalenv ` virtualenv ~/.venv`
+2. edit ~/.bashrc to add `source /workspaces/python-devops/.venv/bin/activate`
+
 ### Colab
 
 ### AWS Cloud Shell
