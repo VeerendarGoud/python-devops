@@ -21,4 +21,7 @@ format:
 # 	docker tag devops-may-2022:latest 561744971673.dkr.ecr.us-east-1.amazonaws.com/devops-may-2022:latest
 # 	docker push 561744971673.dkr.ecr.us-east-1.amazonaws.com/devops-may-2022:latest
 
-all: install lint test format
+deploy:
+	echo "deploy goes here"
+
+all: install lint test format deploy
